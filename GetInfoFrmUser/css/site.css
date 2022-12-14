@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    font: 2em Arial;
+    max-width: 600px;
+    }
+
+    p > label {
+    display: block;
+    }
+
+    input[type=”text”],
+    input[type=”email”],
+    input[type=”number”],
+    textarea,
+    fieldset {
+    width : 80%;
+    border: 2px solid;
+    box-sizing: border-box;
+    }
+
+    input:invalid, select, input, textarea {
+    box-shadow: 0 0 4px 3px gray;
+    border: 2px solid;
+    box-sizing: border-box;
+    }
+
+    .subbtn{
+        font: .6em Arial;
+        cursor: pointer;
+    }
+
+    input:focus:invalid, textarea:focus:invalid {
+    box-shadow: none;
+    }
