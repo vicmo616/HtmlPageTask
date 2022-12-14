@@ -1,0 +1,283 @@
+/* Landing page */
+
+body,
+html {
+    /* background-color: whitesmoke; */
+    font-family: 'kumbh sans', sans-serif;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.left-top-nav {
+    display: flex;
+    gap: 2em;
+}
+
+.snkr-logo {
+    margin-left: 5em;
+    cursor: pointer;
+}
+
+.left-top-nav a {
+    margin-right: 1em;
+    text-decoration: none;
+    color: #8C919B;
+    font-size: 14px;
+}
+
+a.active {
+    color: hsl(26, 100%, 55%);
+}
+
+.left-top-nav a:hover {
+    color: hsl(26, 100%, 55%);
+}
+
+.right-top-nav {
+    margin-right: 5em;
+}
+
+.crt-icon {
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+.fa-user-circle {
+    font-size: 20px;
+    color: #6b6d6f;
+}
+
+/* .fa-shopping-cart {
+    margin-right: 2em;
+} */
+
+.hr {
+    margin: 2.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    background-color: #fcf7f7;
+}
+
+.landingpage-body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5em;
+}
+
+.landingpage-body-left {
+    display: flex;
+    flex-direction: column;
+    margin: 0 7em;
+}
+
+.lp-btm-lft {
+    display: flex;
+    flex-direction: row;
+}
+
+.shoe-1 {
+    height: 375px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.shoe-2-4 {
+    border-radius: 10px;
+    height: 75px;
+    margin-right: 1.2em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+/* .landingpage-body-right {
+    display: flex;
+    flex-direction: column;
+} */
+
+.lp-bdy-txt {
+    margin-top: 2em;
+    width: 50%;
+}
+
+.SC-heading-1 {
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(25, 87%, 63%);
+}
+
+.SC-heading-2 {
+    font-size: 35px;
+}
+
+.SC-description {
+    color: #8C919B;
+    font-size: 16px;
+}
+
+.new-prices {
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+}
+
+.percentage {
+    margin-left: 1em;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 5px;
+    width: 30px;
+
+}
+
+.percentage p {
+    color: hsl(25, 87%, 63%);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 0 3.3px;
+}
+
+.lined-out-price del {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #8C919B;
+
+}
+
+.minus-plus-1 {
+    width: 15px;
+    height: 5px;
+    margin-left: 1em;
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+.minus-plus-2 {
+    width: 15px;
+    height: 10px;
+    margin-left: 2em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.plus-minus {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f7f8fd;
+    width: 130px;
+    padding: 3px;
+}
+
+.zero {
+    font-weight: 700;
+}
+
+.addtocart {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 1em;
+    background-color: hsl(25, 87%, 63%);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(25, 64%, 79%);
+}
+
+
+button p {
+    color: white;
+    font-weight: 700;
+    margin-left: 1em;
+}
+
+
+.fa-shopping-cart {
+    color: white;
+    margin-left: 3em;
+}
+
+/* CONTACT FORM  */
+
+.contact-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 550px;
+    background: hsl(25, 100%, 94%);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px hsl(26, 49%, 68%);
+}
+
+.contact-wrapper .title h1 {
+    color: hsl(25, 87%, 63%);
+    ;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    display: flex;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg {
+    width: 48%;
+}
+
+.input-fields .input,
+.msg textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #8C919B;
+    padding: 10px;
+    color: #8C919B;
+    width: 100%;
+}
+
+.msg textarea {
+    height: 212px;
+}
+
+.btn {
+    background: hsl(26, 100%, 55%);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background-color: hsl(25, 64%, 79%);
+}

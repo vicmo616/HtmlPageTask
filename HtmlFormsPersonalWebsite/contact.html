@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/752a16ed50.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue&family=Kumbh+Sans:wght@400;700&family=Poppins:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
+    <title>RA: Two page website</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="top-nav">
+            <div class="left-top-nav">
+                <a href="index.html"><img class="snkr-logo" src="img/logo.svg" alt="Sneakers Logo"></a>
+                <div class="nav-links">
+                    <a href="#">Collections</a>
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">About</a>
+                    <a href="contact.html" class="active" aria-current="page">Contact</a>
+                </div>
+            </div>
+            <div class="right-top-nav">
+                <div class="nav-links">
+                    <img class="crt-icon" src="img/icon-cart.svg" alt="Cart Icon">
+                    <!-- <i class="fa fa-shopping-cart"></i> -->
+                    <i class="fa fa-user-circle"></i>
+                </div>
+            </div>
+        </header>
+        <div class="hr">
+            <hr>
+        </div>
+        <div class="contact-wrapper">
+            <div class="title">
+                <h1>CONTACT US</h1>
+            </div>
+            <div class="contact-form">
+                <div class="input-fields">
+                    <form action="">
+                        <input type="text" id="name" class="input" placeholder="Name" required>
+                        <input type="email" id="email" class="input" placeholder="Email Address" required>
+                        <input type="phone" id="phone" class="input" placeholder="Phone" required>
+                        <input type="text" id="subject" class="input" placeholder="Subject">
+                        <select name="priorty" id="priority" class="input" placeholder="Priority">
+                            <option value=""></option>
+                            <option value="urgent">Urgent</option>
+                            <option value="noturgent">Not Urgent</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="msg">
+                    <textarea placeholder="Message" required></textarea>
+                    <div class="btn">send</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
